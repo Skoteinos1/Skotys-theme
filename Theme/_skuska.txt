@@ -1,0 +1,4 @@
+<div class="sticky-top" style="border: 3px solid rgb(158, 2, 2); color: rgb(0, 0, 0) !important; background-color: rgb(255, 255, 255) !important;">
+<p style="display: inline; color: rgb(158, 2, 2);">Pozor AKCIA, zľava 54% už len  </p>
+<p style="display: inline; color: rgb(158, 2, 2);" id="countdown">6d 11:17:27h</p>
+</div>

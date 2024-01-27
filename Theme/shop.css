@@ -1,0 +1,186 @@
+/*
+ ;
+border: 2px solid red;
+*/
+
+.woo_container {
+  width: 80%;
+  max-width: 1080px;
+  margin: auto;
+overflow: auto;
+}
+
+.woocom_chckout {
+  box-sizing: border-box;
+  width: 70%;
+  display: inline-block;
+  float: left;
+}
+
+.chckout_sidebar {
+  box-sizing: border-box;
+  width: 29.8%;
+  padding: 0px 15px;
+  display: inline-block;
+  float: left;
+}
+
+.woocommerce-Price-amount {
+  color: #2ea3f2;
+}
+
+.woocom-product {
+  overflow: auto;
+  width: 80%;
+  margin: auto;
+}
+
+.et_pb_button,
+.woocommerce #content input.button,
+.woocommerce #content input.button.alt,
+.woocommerce a.button,
+.woocommerce a.button.alt,
+.woocommerce button.button,
+.woocommerce button.button.alt,
+.woocommerce input.button,
+.woocommerce input.button.alt,
+.woocommerce-page #content input.button,
+.woocommerce-page #content input.button.alt,
+.woocommerce-page a.button,
+.woocommerce-page a.button.alt,
+.woocommerce-page button.button,
+.woocommerce-page button.button.alt,
+.woocommerce-page input.button,
+.woocommerce-page input.button.alt {
+  font-size: 20px;
+  font-weight: 500;
+  padding: .3em 1em;
+  line-height: 1.7em!important;
+  background: 0 0;
+  position: relative;
+  border: 2px solid;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-transition: all .2s;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  color: #2ea3f2;
+}
+
+.et_pb_button:hover,
+.woocommerce #content input.button.alt:hover,
+.woocommerce #content input.button:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce a.button:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce button.button:hover,
+.woocommerce input.button.alt:hover,
+.woocommerce input.button:hover,
+.woocommerce-page #content input.button.alt:hover,
+.woocommerce-page #content input.button:hover,
+.woocommerce-page a.button.alt:hover,
+.woocommerce-page a.button:hover,
+.woocommerce-page button.button.alt:hover,
+.woocommerce-page button.button:hover,
+.woocommerce-page input.button.alt:hover,
+.woocommerce-page input.button:hover {
+  border: 2px solid transparent;
+  padding: .3em 2em .3em 1em;
+  background: #dfdddf;
+  color: #2ea3f2;
+}
+
+.et_pb_button:hover:after,
+.woocommerce #content input.button.alt:hover:after,
+.woocommerce #content input.button:hover:after,
+.woocommerce a.button.alt:hover:after,
+.woocommerce a.button:hover:after,
+.woocommerce button.button.alt:hover:after,
+.woocommerce button.button:hover:after,
+.woocommerce input.button.alt:hover:after,
+.woocommerce input.button:hover:after,
+.woocommerce-page #content input.button.alt:hover:after,
+.woocommerce-page #content input.button:hover:after,
+.woocommerce-page a.button.alt:hover:after,
+.woocommerce-page a.button:hover:after,
+.woocommerce-page button.button.alt:hover:after,
+.woocommerce-page button.button:hover:after,
+.woocommerce-page input.button.alt:hover:after,
+.woocommerce-page input.button:hover:after {
+  content: ">";
+  position: absolute;
+  margin-left: 0.5em;
+}
+
+.woocommerce table,
+.woocommerce th,
+.woocommerce td {
+  border: none;
+}
+
+.woocommerce input {
+  -webkit-appearance: none;
+  padding: 15px;
+}
+
+#coupon_code {
+  padding: 15px;
+  font-size: 14px;
+}
+
+#billing_first_name_field {
+  width: 98%;
+}
+
+.woocommerce input[type=checkbox] {
+    -webkit-appearance: checkbox
+}
+
+.woocommerce input[type=radio] {
+    -webkit-appearance: radio
+}
+
+.woocommerce input.text,
+.woocommerce input.title,
+.woocommerce input[type=text],
+.woocommerce select,
+.woocommerce textarea {
+  border: 1px solid #bbb;
+  color: #4e4e4e;
+  padding: 15px;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+.woocommerce input.text:focus,
+.woocommerce input.title:focus,
+.woocommerce input[type=text]:focus,
+.woocommerce select:focus,
+.woocommerce textarea:focus {
+  border-color: #2d3940;
+  color: #3e3e3e;
+}
+
+.payment_method_stripe img{
+  max-width: 10%;
+  display: inline;
+}
+
+@media all and (min-width: 770px) and (max-width: 959px) {
+  .woo_container {
+    width: 95%;
+  }
+}
+
+@media all and (max-width: 769px) {
+  .woo_container,
+  .woocom-product {
+    width: 95%;
+  }
+
+  .woocom_chckout,
+  .chckout_sidebar {
+    width: 100%;
+  }
+}
